@@ -6,7 +6,7 @@ from datetime import datetime
 from streamlit_autorefresh import st_autorefresh
 
 # ✅ Set page config FIRST (IMPORTANT!)
-st.set_page_config(page_title="Kiran's Smart Automotive Dashboard", layout="wide")
+st.set_page_config(page_title="Vehicles's Smart Automotive Dashboard", layout="wide")
 
 # Session State Initialization
 if "start" not in st.session_state:
@@ -21,7 +21,7 @@ if st.session_state.start:
     st_autorefresh(interval=1000, key="auto_refresh")
 
 # Title
-st.title("🚘 Kiran's Smart Automotive Dashboard")
+st.title("🚘 Vehicles's Smart Automotive Dashboard")
 
 # Sidebar
 with st.sidebar:
